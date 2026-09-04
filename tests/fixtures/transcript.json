@@ -1,0 +1,46 @@
+{
+  "backend": {
+    "compute_type": "int8",
+    "device": "cpu",
+    "name": "faster-whisper",
+    "version": "test"
+  },
+  "language": {
+    "code": "ru",
+    "confidence": 0.99
+  },
+  "metadata": {
+    "created_at": "2026-05-13T00:00:00+00:00",
+    "job_id": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+    "source": {
+      "bytes": 42,
+      "name": "sample.wav",
+      "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    }
+  },
+  "model": {
+    "repo": "Systran/faster-whisper-tiny",
+    "revision": "revision"
+  },
+  "schema_version": "1.0",
+  "segments": [
+    {
+      "end": 1.23456,
+      "id": 1,
+      "start": 0.0,
+      "text": "Привет мир"
+    },
+    {
+      "end": 2.5,
+      "id": 2,
+      "start": 1.25,
+      "text": "Whisper Lab"
+    }
+  ],
+  "timings": {
+    "duration_seconds": 2.5,
+    "inference_seconds": 0.1,
+    "real_time_factor": 0.04
+  },
+  "warnings": []
+}
